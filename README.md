@@ -1,3 +1,5 @@
-# Jakes-Portfolio
+# Jake's Websites
 
-Just a website created and uploaded by Github Pages with a is-a.dev domain. 
+Multiple Webpages merged using main domain 'jakehe.is-a.dev'.
+
+Jake He#9816 :)
