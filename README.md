@@ -4,8 +4,9 @@ Multiple Webpages merged using main domain 'jakehe.is-a.dev'.
 
 
 ------------
-- Main Portfolio Website
--- Jakes-Bot  Website for Jake's Personal Discord Bot
+# Main Portfolio Website
+</b>
+## Jakes-Bot  Website for Jake's Personal Discord Bot
 ------------
 
 
