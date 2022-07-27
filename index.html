@@ -47,33 +47,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
-    <script>
-      $(document).ready(function () {
-        var myAudio = document.getElementById("myaudio");
-        var more = 0;
-        $('.round').click(function () {
-          if (more % 2 == 0) {
-            $(myAudio)[0].play();
-            more++;
-          }
-          else if (more % 2 != 0) {
-            $(myAudio)[0].pause();
-            more++;
-          }
-        });
-      });
-      $(".buton").hover(
-        function () {
-          $(this).removeClass("flipInX");
-          $(this).addClass("swing");
-        },
-        function () {
-          $(this).removeClass("swing");
-          $(this).addClass('flipInX')
-        }
-      );
-    </script>
-
     <div class="profile">
       <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
       <h1 class="text-light"><a href="index.html">Jake He</a></h1>
@@ -180,7 +153,7 @@
             data-aos-delay="100">
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1"
                 class="purecounter">0</span>
               <p><strong>Projects</strong> I built and developed</p>
             </div>
@@ -190,7 +163,7 @@
             data-aos-delay="200">
             <div class="count-box">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1876" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="3743" data-purecounter-duration="1"
                 class="purecounter">0</span>
               <p><strong>Hours of Active time</strong> on Discord</p>
             </div>
@@ -200,7 +173,7 @@
             data-aos-delay="300">
             <div class="count-box">
               <i class="bi bi-sd-card"></i>
-              <span data-purecounter-start="0" data-purecounter-end="733" data-purecounter-duration="1"
+              <span data-purecounter-start="0" data-purecounter-end="1376" data-purecounter-duration="1"
                 class="purecounter">0</span>
               <p><strong>MB of storage</strong> used for my Projects</p>
             </div>
@@ -275,7 +248,7 @@
         <div class="section-title">
           <h2>Resume</h2>
           <p>Currently I am 13 years old</p>
-          <p>My hobbies are: Coding, Gaming and Sports</p>
+          <p>My hobbies are: Coding, Gaming and a variety of sports</p>
           <p>I have developed many Discord Bots with unique commands and interactions. </p>
         </div>
 
@@ -328,7 +301,7 @@
               <img src="assets/img/portfolio/jakesmusicbot.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/jakesmusicbot.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Jake's Music Bot"><i class="bx bx-plus"></i></a>
+                  class="portfolio-lightbox" title="Jake's Music Bot, using Lavalink"><i class="bx bx-plus"></i></a>
 
               </div>
             </div>
@@ -350,7 +323,7 @@
               <img src="assets/img/portfolio/jakesbot.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/jakesbot.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="Jake's Bot"><i class="bx bx-plus"></i></a>
+                  title="Jake's Bot V1, Jake's personal server bot running on Discord.js V13"><i class="bx bx-plus"></i></a>
 
               </div>
             </div>
@@ -361,7 +334,7 @@
               <img src="assets/img/portfolio/lightningmusic.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/lightningmusic.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Lightning Music"><i class="bx bx-plus"></i></a>
+                  class="portfolio-lightbox" title="Lightning Music, using Discord.js"><i class="bx bx-plus"></i></a>
 
               </div>
             </div>
@@ -383,7 +356,40 @@
               <img src="assets/img/portfolio/discordserver.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/discordserver.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="My Discord Server"><i class="bx bx-plus"></i></a>
+                  class="portfolio-lightbox" title="My Discord Server, a community for all"><i class="bx bx-plus"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-discordbots">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/atlas.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/atlas.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Atlas Bot, a multipurpose bot for all your needs."><i class="bx bx-plus"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-websites">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/website.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/website.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Jake's main website, jakehe.is-a.dev."><i class="bx bx-plus"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-discordbots">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/jakesdeveloperbot.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/jakesdeveloperbot.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Jake's Personal Server bot V2, running on Discord.js V14 and is in development currently."><i class="bx bx-plus"></i></a>
 
               </div>
             </div>
