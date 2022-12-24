@@ -1,5 +1,5 @@
 /**
-* Template Name: iPortfolio - v3.7.0
+* Template Name: iPortfolio - v3.10.0
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -252,5 +252,10 @@
       mirror: false
     })
   });
+
+  /**
+   * Initiate Pure Counter 
+   */
+  new PureCounter();
 
 })()
