@@ -4,7 +4,7 @@ Multiple Webpages merged using main domain 'jakehe.is-a.dev'.
 
 [Jake's Portfolio Website](https://jakehe.is-a.dev) < 
 <br>
-[Jake's Socials' Webpage](https://jakehe.is-a.dev/socials)
+[Jake's Socials Webpage](https://jakehe.is-a.dev/socials)
 <br>
 *ARCHIVED*:
 <br>
