@@ -107,6 +107,15 @@ const musicData = [
     musicPath: "./assets/music/En/En - 我走后 - 深情版.mp3",
   },
   {
+    backgroundImage: "./assets/images/Joey Yung/Joey Yung - 就让这大雨全都落下.jpg",
+    posterUrl: "./assets/images/Joey Yung/Joey Yung - 就让这大雨全都落下.jpg",
+    title: "就让这大雨全都落下",
+    album: "就让这大雨全都落下",
+    year: 2022,
+    artist: "Joey Yung",
+    musicPath: "./assets/music/Joey Yung/Joey Yung - 就让这大雨全都落下.mp3",
+  },
+  {
     backgroundImage: "./assets/images/Conor Maynard/Conor Maynard - You Broke Me First.jpg",
     posterUrl: "./assets/images/Conor Maynard/Conor Maynard - You Broke Me First.jpg",
     title: "You Broke Me First",
